@@ -9,7 +9,6 @@ function App() {
     <>
       <div>
         <UserBox />
-        <button onClick={() => setCount((c) => c + 1)}>{count}</button>
         <button onClick={() => setCount(count + 1)}>{count}</button>
       </div>
     </>
