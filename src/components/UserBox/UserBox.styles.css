@@ -11,3 +11,8 @@
 .authorname {
   color: darkslateblue;
 }
+
+.date {
+  color: grey;
+  font-size: small;
+}
