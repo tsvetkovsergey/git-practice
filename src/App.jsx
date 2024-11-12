@@ -9,6 +9,7 @@ function App() {
     <>
       <div>
         <UserBox />
+        <p>Press button to add likes:</p>
         <button onClick={() => setCount(count + 1)}>{count}</button>
       </div>
     </>
