@@ -13,6 +13,7 @@ function App() {
         <UserBox />
         <p className="like-text">Press button to add likes:</p>
         <button onClick={() => setCount(count + 1)}>{count}</button>
+        <DateBlock />
       </div>
     </>
   );
