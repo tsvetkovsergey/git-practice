@@ -7,7 +7,7 @@
   border-radius: 5px;
 
   &:hover {
-    background-color: lightblue;
+    background-color: green;
   }
 }
 
