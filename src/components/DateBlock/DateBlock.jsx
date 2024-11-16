@@ -4,7 +4,7 @@ export default function DateBlock() {
   const date = new Date();
 
   return (
-    <div className="block shadow border">
+    <div className="date-block shadow border">
       Current date: {date.toDateString()}
     </div>
   );
