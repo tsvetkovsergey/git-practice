@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { UserBox } from './components/UserBox/UserBox';
 import DateBlock from './components/DateBlock/DateBlock';
+import BlueBlock from './components/BlueBlock/BlueBlock';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,6 +10,9 @@ function App() {
   return (
     <>
       <div>
+        <div className="container">
+          <BlueBlock />
+        </div>
         <DateBlock />
         <UserBox />
         <p className="like-text">Press button to add likes:</p>
