@@ -7,6 +7,7 @@ import WeatherBlock from './components/WeatherBlock/WeatherBlock';
 import ImageBlock from './components/ImageBlock/ImageBlock';
 import Header from './components/Header/header';
 import TimeComponent from './components/GigaCodeComponent/GigaComp';
+import RedBlock from './components/RedBlock/RedBlock';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,10 +20,10 @@ function App() {
         <TimeComponent />
         <div className="container">
           <BlueBlock />
+          <RedBlock />
         </div>
         <WeatherBlock />
         <ImageBlock />
-        <div className="container"></div>
         <DateBlock />
         <UserBox />
         <p className="like-text">Press button to add likes:</p>
