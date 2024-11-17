@@ -10,10 +10,14 @@ function App() {
   return (
     <>
       <div>
+<<<<<<< HEAD
         one two
+=======
+>>>>>>> parent of 9ab44c7 (one)
         <div className="container">
           <BlueBlock />
         </div>
+
         <DateBlock />
         <UserBox />
         <p className="like-text">Press button to add likes:</p>
