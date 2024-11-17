@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-        one two
+        one
         <div className="container">
           <BlueBlock />
         </div>
