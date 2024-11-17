@@ -10,13 +10,9 @@ function App() {
   return (
     <>
       <div>
-<<<<<<< HEAD
         <div className="container">
           <BlueBlock />
         </div>
-=======
-        <div className="container"></div>
->>>>>>> e180e04 (create blocks)
         <DateBlock />
         <UserBox />
         <p className="like-text">Press button to add likes:</p>
