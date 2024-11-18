@@ -13,7 +13,7 @@ function App() {
         <div className="container">
           <BlueBlock />
         </div>
-
+        Здесь будет погодный блок
         <DateBlock />
         <UserBox />
         <p className="like-text">Press button to add likes:</p>
