@@ -16,3 +16,7 @@
   color: grey;
   font-size: small;
 }
+
+.lyrics {
+  white-space: pre-line;
+}

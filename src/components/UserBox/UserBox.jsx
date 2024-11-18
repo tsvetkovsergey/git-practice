@@ -5,7 +5,7 @@ export const UserBox = () => {
   return (
     <div className="box">
       <h3 className="authorname">Sergei Tsvetkov</h3>
-      <p>
+      <p className="lyrics">
         {`So, so you think you can tell heaven from hell?
         Blue skies from pain?
         Can you tell a green field from a cold steel rail?
