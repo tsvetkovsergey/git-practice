@@ -5,7 +5,8 @@ export default function DateBlock() {
 
   return (
     <div className="date-block shadow border">
-      Current date: {date.toDateString()}
+      <p>Показывает дату</p>
+      <p>Current date: {date.toDateString()}</p>
     </div>
   );
 }
