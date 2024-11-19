@@ -5,12 +5,15 @@ import DateBlock from './components/DateBlock/DateBlock';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import WeatherBlock from './components/WeatherBlock/WeatherBlock';
 import ImageBlock from './components/ImageBlock/ImageBlock';
+import Header from './components/Header/header';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <Header />
+
       <div>
         <div className="container">
           <BlueBlock />
