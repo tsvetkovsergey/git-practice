@@ -8,6 +8,7 @@ import ImageBlock from './components/ImageBlock/ImageBlock';
 import Header from './components/Header/header';
 import TimeComponent from './components/GigaCodeComponent/GigaComp';
 import RedBlock from './components/RedBlock/RedBlock';
+import StupidText from './components/StupidText/StupidText';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
       <Header />
 
       <div>
+        <StupidText />
         <TimeComponent />
         <div className="container">
           <BlueBlock />
