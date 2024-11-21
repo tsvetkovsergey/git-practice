@@ -6,6 +6,7 @@ import BlueBlock from './components/BlueBlock/BlueBlock';
 import WeatherBlock from './components/WeatherBlock/WeatherBlock';
 import ImageBlock from './components/ImageBlock/ImageBlock';
 import Header from './components/Header/header';
+import TimeComponent from './components/GigaCodeComponent/GigaComp';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
       <Header />
 
       <div>
+        <TimeComponent />
         <div className="container">
           <BlueBlock />
         </div>
