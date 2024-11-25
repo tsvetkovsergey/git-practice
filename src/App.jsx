@@ -16,22 +16,23 @@ function App() {
   return (
     <>
       <Header />
-
-      <div>
-        <StupidText />
-        <TimeComponent />
-        <div className="container">
-          <BlueBlock />
-          <RedBlock />
+      <main>
+        <div>
+          <StupidText />
+          <TimeComponent />
+          <div className="container">
+            <BlueBlock />
+            <RedBlock />
+          </div>
+          <WeatherBlock />
+          <ImageBlock />
+          <DateBlock />
+          <UserBox />
+          <p className="like-text">Press button to add likes:</p>
+          <button onClick={() => setCount(count + 1)}>{count}</button>
+          <DateBlock />
         </div>
-        <WeatherBlock />
-        <ImageBlock />
-        <DateBlock />
-        <UserBox />
-        <p className="like-text">Press button to add likes:</p>
-        <button onClick={() => setCount(count + 1)}>{count}</button>
-        <DateBlock />
-      </div>
+      </main>
     </>
   );
 }
