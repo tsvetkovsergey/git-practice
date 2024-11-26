@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 I added this line on GitHub.
 This is remote line.
+This is local line.
